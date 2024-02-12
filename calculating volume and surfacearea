@@ -7,9 +7,9 @@ int main() {
     float radius, height, volume, surface_area;
 
 
-    printf("Enter the radius of the cylinder: ");
+    printf("Enter the radius of the cylinder\n");
     scanf("%f", &radius);
-    printf("Enter the height of the cylinder: ");
+    printf("Enter the height of the cylinder\n");
     scanf("%f", &height);
 
     // Calculating volume and surface area
