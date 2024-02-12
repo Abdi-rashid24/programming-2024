@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+    float salary, bonus;
+    int years_of_service;
+
+    
+    printf("Enter your salary\n");
+    scanf("%f", &salary);
+    printf("Enter your years of service\n");
+    scanf("%d", &years_of_service);
+
+    
+    if (years_of_service > 5) {
+      
+        bonus = 0.05 * salary;
+        printf(" You are eligible for a bonus of %.2f\n", bonus);
+    } else {
+        printf("you are not eligible for a bonus.\n");
+    }
+
+    return 0;
+}
